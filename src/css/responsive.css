@@ -63,6 +63,17 @@
 
 @media(max-width: 470px) {
 
+    .imagens-profissao .foto {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        margin-top: -80px;
+        margin-bottom: 60px;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+
 
     .descricao {
         justify-content: center;
@@ -75,7 +86,7 @@
         margin-top: 10px;
         hyphens: auto;
         word-break: break-word;
-        letter-spacing: 0.7px; 
+        letter-spacing: 0.7px;
     }
 
     .descricao {
@@ -84,7 +95,7 @@
         margin-right: 30px;
     }
 
-    .aviso  {
+    .aviso {
         display: flex;
         justify-content: center;
         color: #fff;
@@ -100,9 +111,8 @@
         margin: 30px;
     }
 
-    .redes li:nth-of-type(3){
+    .redes li:nth-of-type(3) {
         margin-right: 40px;
     }
 
 }
-
