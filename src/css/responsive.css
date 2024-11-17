@@ -20,7 +20,6 @@
 
     }
 
-
     .linguagens-programacao li img {
         height: 45px;
         width: 45px;
@@ -56,7 +55,6 @@
 
 }
 
-
 @media(max-width: 470px) {
 
     .apresentacao .introducao {
@@ -76,22 +74,16 @@
         margin: 20px;
     }
 
-
     .descricao p {
         text-align: center;
         margin-top: 10px;
 
     }
 
-
     .descricao {
-        color: #fff;
-        display: flex;
-        gap: 30px;
         margin-top: -90px;
-        margin-left: 70px;
+        margin-left: 30px;
         margin-right: 30px;
-        letter-spacing: 2px;
     }
 
 }
