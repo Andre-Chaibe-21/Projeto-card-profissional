@@ -120,10 +120,14 @@
 }
 
 @media(max-width: 490px) {
+
+    body {
+        background: #17191f;
+    } 
     .cartao {
-        height: 100vh;
+        height: 100%;
         margin: 0px;
         border-radius: 0;
     }
-    
+
 }
