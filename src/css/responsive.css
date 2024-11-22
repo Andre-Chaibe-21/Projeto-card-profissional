@@ -21,6 +21,11 @@
         margin-left: 0px;
     }
 
+    .descricao {
+        align-items: center;
+        justify-content: center;
+    }
+
     .linguagens-programacao {
         margin-top: -50px;
 
@@ -58,10 +63,9 @@
         margin-left: 68px;
         max-width: 250px;
     }
-
 }
 
-@media(max-width: 470px) {
+@media(max-width: 599px) {
 
     .imagens-profissao .foto {
         width: 110px;
@@ -73,7 +77,6 @@
         margin-left: 40px;
         margin-right: 10px;
     }
-
 
     .descricao {
         justify-content: center;
@@ -114,5 +117,11 @@
     .redes li:nth-of-type(3) {
         margin-right: 40px;
     }
+}
 
+@media(max-width: 400px) {
+    .cartao {
+        margin: 0px;
+        border-radius: 0;
+    }
 }
