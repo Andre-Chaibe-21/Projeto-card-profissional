@@ -119,9 +119,11 @@
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 490px) {
     .cartao {
+        height: 100vh;
         margin: 0px;
         border-radius: 0;
     }
+    
 }
